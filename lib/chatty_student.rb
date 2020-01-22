@@ -1,7 +1,8 @@
  class chatty_student < student
   def hello
     super
-    @in_class = true
+    @hello = hello
+    puts 
   end
 end
   
